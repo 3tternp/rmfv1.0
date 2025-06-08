@@ -5,9 +5,9 @@ echo Creating .env file...
 echo DEBUG=True
 echo SECRET_KEY=changeme123
 echo ALLOWED_HOSTS=localhost,127.0.0.1
-echo DB_NAME=rmfdb
-echo DB_USER=rmfuser
-echo DB_PASSWORD=rmfpass
+echo DB_NAME=postgres
+echo DB_USER=postgres
+echo DB_PASSWORD=postgres
 echo DB_HOST=db
 echo DB_PORT=5432
 echo REACT_APP_API_URL=http://localhost:8000
