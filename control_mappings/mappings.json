@@ -1,0 +1,16 @@
+[
+  {
+    "rmf_function": "Identify",
+    "nist_control": "RA-1",
+    "iso_control": "A.6.1.2",
+    "soc2_criteria": "CC3.1",
+    "description": "Risk assessment policies and procedures"
+  },
+  {
+    "rmf_function": "Protect",
+    "nist_control": "AC-2",
+    "iso_control": "A.9.2.1",
+    "soc2_criteria": "CC6.1",
+    "description": "User access provisioning"
+  }
+]
