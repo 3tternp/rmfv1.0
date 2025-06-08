@@ -2,7 +2,7 @@
 # structure 
 
 ```
-RMF-v1.0/
+rmfv1.0/
 ├── backend/             # Django backend
 │   ├── manage.py
 │   ├── rmf_api/
