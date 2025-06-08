@@ -11,17 +11,17 @@ A full-stack web application aligned with NIST RMF, ISO/IEC 27001, and SOC 2.
 ---
 
 ## 🚀 Getting Started (Local Setup)
+**1. Clone the repo**
 ```
-1. Clone the repo
 git clone https://github.com/3tternp/rmfv1.0
 cd rmf-v1.0
 ```
-Generate .env file
+**2. Generate .env file**
 ```
 ./generate_env.sh   # Linux/macOS
 generate_env.bat    # Windows
 ```
-Start the application
+**3. Start the application**
 ```
 docker-compose up --build
 ```
