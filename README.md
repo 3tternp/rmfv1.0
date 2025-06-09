@@ -44,6 +44,7 @@ You can run these via terminal:
 psql -U postgres
 or inside pgAdmin's query tool.
 ```
+```
 rmfv1.0/
 ├── backend/             # Django backend
 │   ├── manage.py
