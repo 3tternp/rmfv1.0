@@ -34,6 +34,7 @@ Open pgAdmin or the PostgreSQL CLI
 
 Run the following SQL:
 ```
+```
 CREATE USER rmfuser WITH PASSWORD 'rmfpass';
 CREATE DATABASE rmfdb OWNER rmfuser;
 GRANT ALL PRIVILEGES ON DATABASE rmfdb TO rmfuser;
