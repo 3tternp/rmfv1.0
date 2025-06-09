@@ -28,6 +28,21 @@ docker-compose up --build
 # structure 
 
 ```
+If you want to keep rmfuser as your project DB user, do this manually in PostgreSQL:
+
+Open pgAdmin or the PostgreSQL CLI
+
+Run the following SQL:
+```
+CREATE USER rmfuser WITH PASSWORD 'rmfpass';
+CREATE DATABASE rmfdb OWNER rmfuser;
+GRANT ALL PRIVILEGES ON DATABASE rmfdb TO rmfuser;
+```
+You can run these via terminal:
+```
+psql -U postgres
+or inside pgAdmin's query tool.
+```
 rmfv1.0/
 ├── backend/             # Django backend
 │   ├── manage.py
