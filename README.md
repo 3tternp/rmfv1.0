@@ -27,11 +27,11 @@ docker-compose up --build
 ```
 # structure 
 
+**DB Setup**
 ```
-If you want to keep rmfuser as your project DB user, do this manually in PostgreSQL:
-
+If you want to keep rmfuser as your project DB user,
+do this manually in PostgreSQL:
 Open pgAdmin or the PostgreSQL CLI
-
 Run the following SQL:
 ```
 ```
