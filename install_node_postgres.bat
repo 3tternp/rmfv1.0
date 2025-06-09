@@ -25,8 +25,8 @@ setx PATH "%PATH%;C:\Program Files\PostgreSQL\14\bin"
 
 echo.
 echo ✅ Installation complete.
-echo 🔑 Default DB user: postgres
-echo 🔐 Password: postgres
+echo 🔑 Default DB user: rmfuser
+echo 🔐 Password: rmfuser
 echo 🚀 You may need to restart PowerShell for PATH changes to apply.
 
 pause
