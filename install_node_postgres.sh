@@ -15,12 +15,12 @@ sudo apt-get update
 sudo apt-get install -y postgresql postgresql-contrib
 
 # Step 3: Set PostgreSQL password
-echo "🔐 Setting password for user 'postgres'..."
-sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
+echo "🔐 Setting password for user 'rmfuser'..."
+sudo -u rmfuser psql -c "ALTER USER postgres PASSWORD 'rmfuser';"
 
 echo ""
 echo "✅ Done!"
-echo "🔑 PostgreSQL user: postgres"
-echo "🔐 Password: postgres"
+echo "🔑 PostgreSQL user: rmfuser"
+echo "🔐 Password: rmfuser"
 echo "🛠 Node version: $(node -v)"
 echo "🛠 NPM version: $(npm -v)"
